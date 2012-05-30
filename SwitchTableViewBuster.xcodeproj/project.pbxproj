@@ -13,6 +13,7 @@
 		9E9624BD1575B3E700ECC6F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E9624BB1575B3E700ECC6F4 /* InfoPlist.strings */; };
 		9E9624BF1575B3E700ECC6F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9624BE1575B3E700ECC6F4 /* main.m */; };
 		9E9624C31575B3E800ECC6F4 /* STVBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9624C21575B3E800ECC6F4 /* STVBAppDelegate.m */; };
+		9E9624CB1575B3FE00ECC6F4 /* STVBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9624CA1575B3FE00ECC6F4 /* STVBTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		9E9624B21575B3E700ECC6F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E9624B41575B3E700ECC6F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E9624B61575B3E700ECC6F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9E9624BA1575B3E700ECC6F4 /* SwitchTableViewBuster-Info.plist */ = {isa = PBXFileReference; path = "SwitchTableViewBuster-Info.plist"; sourceTree = "<group>"; };
+		9E9624BA1575B3E700ECC6F4 /* SwitchTableViewBuster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchTableViewBuster-Info.plist"; sourceTree = "<group>"; };
 		9E9624BC1575B3E700ECC6F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E9624BE1575B3E700ECC6F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E9624C01575B3E800ECC6F4 /* SwitchTableViewBuster-Prefix.pch */ = {isa = PBXFileReference; path = "SwitchTableViewBuster-Prefix.pch"; sourceTree = "<group>"; };
-		9E9624C11575B3E800ECC6F4 /* STVBAppDelegate.h */ = {isa = PBXFileReference; path = STVBAppDelegate.h; sourceTree = "<group>"; };
+		9E9624C01575B3E800ECC6F4 /* SwitchTableViewBuster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchTableViewBuster-Prefix.pch"; sourceTree = "<group>"; };
+		9E9624C11575B3E800ECC6F4 /* STVBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STVBAppDelegate.h; sourceTree = "<group>"; };
 		9E9624C21575B3E800ECC6F4 /* STVBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STVBAppDelegate.m; sourceTree = "<group>"; };
+		9E9624C91575B3FE00ECC6F4 /* STVBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STVBTableViewController.h; sourceTree = "<group>"; };
+		9E9624CA1575B3FE00ECC6F4 /* STVBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STVBTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				9E9624C11575B3E800ECC6F4 /* STVBAppDelegate.h */,
 				9E9624C21575B3E800ECC6F4 /* STVBAppDelegate.m */,
 				9E9624B91575B3E700ECC6F4 /* Supporting Files */,
+				9E9624C91575B3FE00ECC6F4 /* STVBTableViewController.h */,
+				9E9624CA1575B3FE00ECC6F4 /* STVBTableViewController.m */,
 			);
 			path = SwitchTableViewBuster;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			files = (
 				9E9624BF1575B3E700ECC6F4 /* main.m in Sources */,
 				9E9624C31575B3E800ECC6F4 /* STVBAppDelegate.m in Sources */,
+				9E9624CB1575B3FE00ECC6F4 /* STVBTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
