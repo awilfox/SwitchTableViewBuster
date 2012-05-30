@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "STVBTableViewController.h"
 
 @interface STVBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) STVBTableViewController *viewController;
 
 @end
